@@ -75,6 +75,10 @@ public class VendingMachine {
         }
     }
 
+    public int getCurrentBalance() {
+        return currentBalance;
+    }
+
     // 4. 잔돈 반환 (잔돈 레버)
     public int returnChange() {
         int change = currentBalance;
